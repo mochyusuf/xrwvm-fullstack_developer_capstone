@@ -30,18 +30,25 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
+    'localhost:8000',
     'https://theianext-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai',
     'https://mochyusuf100-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai'
 ]
 CSRF_TRUSTED_ORIGINS = [
+    'localhost',
+    'localhost:8000',
     'https://theianext-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai',
     'https://mochyusuf100-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai'
 ]
 CSRF_ALLOWED_ORIGINS = [
+    'localhost',
+    'localhost:8000',
     'https://theianext-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai',
     'https://mochyusuf100-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai'
 ]
 CORS_ORIGINS_WHITELIST = [
+    'localhost',
+    'localhost:8000',
     'https://theianext-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai',
     'https://mochyusuf100-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai'
 ]
